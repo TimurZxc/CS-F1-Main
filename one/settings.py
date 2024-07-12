@@ -6,8 +6,8 @@ SECRET_KEY = 'django-insecure-ky0^789u@qr^y!x_-#0k-@ruwse#ol#is!_*-%$041g(=x3n9r
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.balkhashtourfest.kz','balkhashtourfest.kz', '195.210.46.27']
-
+#ALLOWED_HOSTS = ['www.balkhashtourfest.kz','balkhashtourfest.kz', '195.210.46.27']
+ALLOWED_HOSTS=["*"]
 INSTALLED_APPS = [
     'app',
     'django.contrib.admin',
